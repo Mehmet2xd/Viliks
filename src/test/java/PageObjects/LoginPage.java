@@ -18,6 +18,8 @@ public class LoginPage {
 		PageFactory.initElements(rdriver, this);
 	}
 	
+	// Defining elements on webpage
+	
 	@FindBy(xpath = "/html//input[@id='Email']" )
 	@CacheLookup
 	WebElement txtEmail;
